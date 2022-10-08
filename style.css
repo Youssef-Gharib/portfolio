@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     text-align: center ;
-    font-family: Arial, Helvetica, sans-serif;
 }
 header , footer{
     color: white;
@@ -15,18 +14,21 @@ header {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius:30px;
     box-shadow: 0px 7px 13px 0 #5a6e75 ;
+    font-family: 'Peralta', sans-serif;
 }
 img{
     border: 2px solid rgb(242, 234, 234);
-    width: 30%;
+    width: 25%;
     border-radius: 50%;
 }
 .upper-section{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px 0 ;
     background-image: url("pexels-alexander-zvir-6046076.jpg");
     box-shadow: 0 10px 20px 0 #616567;
 }
 main{
+    font-family: Arial, Helvetica, sans-serif;
     background-color:#f9f7f2 ;
     margin:10px 0 20px 0;
     padding-top: 20px;;
@@ -65,16 +67,37 @@ p{
 }
 
 
+
 ul{
-    margin-right: 20px;
-    margin-bottom: 10px;
+    padding-left: 0;
+    list-style: none inside ;
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
 }
-li{
-    list-style: circle;
+
+li::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
 }
+
+.st-h::before{
+    border:5px solid #FF6933;
+    left:8.5%;
+    top: 20%;
+}
+
+.st-c::before{
+    border:5px solid rgb(116, 43, 204);
+    left: 61%;
+    top: 20%;
+}
+
 
 
 .project-link{
