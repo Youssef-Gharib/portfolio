@@ -20,6 +20,13 @@ img{
     border: 2px solid rgb(242, 234, 234);
     width: 25%;
     border-radius: 50%;
+    margin-bottom:5px ;
+}
+h4{
+    margin-bottom:5px ;
+}
+#p-d{
+    margin-bottom:5px ;
 }
 .upper-section{
     font-family: Arial, Helvetica, sans-serif;
