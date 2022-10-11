@@ -126,3 +126,136 @@ footer{
     border-top-right-radius:30px;
     margin-top: 40px;
 }
+h2{
+    width: 40%;
+    margin-right:auto ;
+    margin-left:auto ;
+}
+@media (min-width: 190px) and (max-width: 320px)  {
+    h2{
+        font-size: 15px;
+        width: 50%;
+    } 
+    h4{
+        font-size: 12px;
+    }
+    #p-d{
+        font-size: 9px;
+    }
+    .main-title{
+    width: 70%;
+    margin: 10px auto ;
+    padding:12px 0px;
+    font-size: 13px;
+        
+    }
+    article{
+        margin: 30px;
+        width: 80%;
+        box-shadow: 10px 10px 12px 0 #ccccd5 ;
+    }
+}
+
+@media (min-width:320px) and (max-width: 520px)  {
+    h2{
+        font-size: 95%;
+    } 
+    h4{
+        font-size: 13px;
+    }
+    #p-d{
+        font-size: 10px;
+    }
+    .main-title{
+    width: 50%;
+    margin: 10px auto ;
+    padding:12px 0px;
+    font-size: 13px;
+        
+    }
+    article{
+        margin: 30px;
+        width: 50%;
+        box-shadow: 10px 10px 12px 0 #ccccd5 ;
+    }
+    .project-name{
+        font-size: 13px;
+        padding:25px;
+    }
+    ul{
+        position: relative;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+    h2{
+        width: 60%;
+        font-size: 16px;
+    } 
+    h4{
+        font-size: 15px;
+    }
+    #p-d{
+        font-size: 11px;
+    }
+    .main-title{
+    width: 30%;
+    margin: 10px auto ;
+    padding:12px 5px;
+    font-size: 14px;
+        
+    }
+    article{
+        margin: 30px;
+        width: 34%;
+        box-shadow: 10px 10px 12px 0 #ccccd5 ;
+    }
+    .project-name{
+        font-size: 13px;
+        padding:25px;
+    }
+    ul{
+        position: relative;
+        font-size: 12px;
+    }
+    .st-h::before{
+        border:5px solid #FF6933;
+        left:9%;
+        top: 20%;
+    }
+    
+    .st-c::before{
+        border:5px solid rgb(116, 43, 204);
+        left: 62%;
+        top: 20%;
+    }
+}
+
+@media (min-width: 769px) and (max-width:969px){
+    
+    h4{
+        font-size: 16px;
+    }
+    #p-d{
+        font-size: 12px;
+    }
+    .main-title{
+    width: 30%;
+    margin: 10px auto ;
+    padding:12px 5px;
+    font-size: 14px;
+        
+    }
+    article{
+        margin: 30px;
+        width: 25%;
+        box-shadow: 10px 10px 12px 0 #ccccd5 ;
+    }
+    .project-name{
+        font-size: 13px;
+        padding:25px;
+    }
+}
+
+
